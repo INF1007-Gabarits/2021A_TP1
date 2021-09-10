@@ -1,0 +1,54 @@
+{
+    "test_calculerEnergie": {
+      "name": "exo 1 : test_calculerEnergie",
+      "points": 1
+    },
+    "test_no_solution": {
+      "name": "exo 2 : Pas de solution de l'equation de degré 2",
+      "points": 1
+    },
+    "test_one_solution": {
+      "name": "exo 2 : 1 solution de l'equation de degré 2",
+      "points": 1
+    },
+    "test_two_solutions": {
+      "name": "exo 2 : 2 solutions de l'equation de degré 2",
+      "points": 1
+    },
+    "test_complet": {
+        "name": "exo 3 : test_complet",
+        "points": 1
+    },
+    "test_semaines": {
+        "name": "exo 3 : test_semaines",
+        "points": 1
+    },
+    "test_jours": {
+        "name": "exo 3 : test_jours",
+        "points": 1
+    },
+    "test_heures": {
+        "name": "exo 3 : test_heures",
+        "points": 1
+    },
+    "test_minutes": {
+        "name": "exo 3 : test_minutes",
+        "points": 1
+    },
+    "test_secondes": {
+        "name": "exo 3 : test_secondes",
+        "points": 1
+    },
+    "test_chiffres": {
+        "name": "exo 4 : test_chiffres",
+        "points": 1
+    },
+    "test_trouverModule": {
+        "name": "exo 5 : test_trouverModule",
+        "points": 1
+    },
+    "test_effectuerRotation": {
+        "name": "exo 5 : test_effectuerRotation",
+        "points": 1
+    }
+  }
