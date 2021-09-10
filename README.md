@@ -17,7 +17,7 @@ Pour ce TP, certaines contraintes sont à respecter:
 - Il est interdit de manipuler des chaines de caractères (String).
 
 ## Exercice 1:
-Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée positionInitiale (en m) et vistesseInitiale (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée durée (en secondes) et vitesseFinale (km/h) soit la vitesse du vehicule apres t secondes. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
+Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) soit la vitesse du vehicule apres t secondes. Finalement vous devez calculet la position finale en mètre. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
 
 ![MRUA](mrua.png)
 
@@ -27,9 +27,9 @@ Il suffit de compléter la fonction `calculerPosition()`.
         # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
         
         # TODO calculer l'énergie cinétique, assigner la valeur à la variable "energieCinetique"
-        energieCinetique=
+        positionFinale =
         
-        return energieCinetique
+        return positionFinale
 ```
 
 ## Exercice 2:
