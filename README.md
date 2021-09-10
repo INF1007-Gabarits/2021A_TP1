@@ -1,7 +1,7 @@
 # TP1
 
 <!--- Changer la date de remise en modifiant le URL--->
-#### :alarm_clock: [Date de remise le dimanche 27 septembre 2020 à 23h59](https://www.timeanddate.com/countdown/generic?iso=20200927T2359&p0=165&msg=Remise&font=cursive&csz=1#)
+#### :alarm_clock: [Date de remise le dimanche 26 septembre 2020 à 23h59](https://www.timeanddate.com/countdown/generic?iso=20200927T2359&p0=165&msg=Remise&font=cursive&csz=1#)
 
 ## Objectif
 
@@ -13,8 +13,7 @@ Celui-ci est composé de 5 exercices, pour lesquels vous devez compléter le cod
 Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-5.py que vous devrez compléter.
 Pour ce TP, certaines contraintes sont à respecter:
 - Vous ne pouvez pas importer d'autres librairies que celle qui sont déjà importées dans les fichiers.
-- Il est interdit de manipuler des chaînes de caractère.
-- Il est interdit d'utiliser les structures de répétitions (for, while).
+- Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
 
 ## Exercice 1:
 Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse (en kg) et la vitesse (en km/h) de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
