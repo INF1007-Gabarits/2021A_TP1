@@ -12,13 +12,13 @@ Celui-ci est composé de 7 exercices, pour lesquels vous devez compléter le cod
 
 Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-7.py que vous devrez compléter.
 Pour ce TP, certaines contraintes sont à respecter:
-- Vous ne pouvez pas importer d'autres librairies que celle qui sont déjà importées dans les fichiers.
+- Vous ne pouvez pas importer d'autres librairies que celles qui sont déjà importées dans les fichiers.
 - Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
 - Il est interdit de manipuler des chaines de caractères (String).
 
 
 ## Exercice 1:
-Le problème suivant est appelé FizzBuzz. Soit la fonction *fizzBuzz()* qui prend en entrée un nombre n.
+Le problème suivant est appelé FizzBuzz. Vous devez compléter la fonction *fizzBuzz()* qui prend en entrée un nombre n.
 
 - Imprimer fizz s’il s’agit d’un multiple de 3     
 - Imprimer buzz s’il s’agit d’un multiple de 5     
