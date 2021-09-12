@@ -145,8 +145,7 @@ Il suffit de compléter la fonction `calculerPosition()`.
 Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
 Voici les deux fonctions à compléter :
 ```python
-        def decomposer(secondes):
-            def trouverModule(nombreComplexe):
+        def trouverModule(nombreComplexe):
             # TODO: Calculer le module du nombre complexe et l'assigner dans "module"
             module =
 
