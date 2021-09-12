@@ -50,45 +50,45 @@ Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calc
 Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction `resoudreEquation()`.
 ```python
     def resoudreEquation(a, b, c):
-    # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
-    delta =
+        # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
+        delta =
 
-    # TODO: Déterminer la condition (bool) qui correspond à la situation où l'équation n'a aucune solution et m assigner le résultat dans la variable "naPasDeSolution"
-    naPasDeSolution =
+        # TODO: Déterminer la condition (bool) qui correspond à la situation où l'équation n'a aucune solution et m assigner le résultat dans la variable "naPasDeSolution"
+        naPasDeSolution =
 
-    if naPasDeSolution:
-        # ces lignes de code seront executé si il y'a aucune racine
-        # TODO: afficher sur l'écran "Aucune racine"
+        if naPasDeSolution:
+            # ces lignes de code seront executé si il y'a aucune racine
+            # TODO: afficher sur l'écran "Aucune racine"
 
-        # ne pas modifier
-        return None
+            # ne pas modifier
+            return None
 
-    # TODO: Déterminer la condition (bool) qui correspond à la situation où il existe une seule solution à l'équation et mettre la valeur dans "aUneSeuleSolution"
-    aUneSeuleSolution =
+        # TODO: Déterminer la condition (bool) qui correspond à la situation où il existe une seule solution à l'équation et mettre la valeur dans "aUneSeuleSolution"
+        aUneSeuleSolution =
 
-    if aUneSeuleSolution:
-        # ces ligne de code seront executées s'il y'a une seule racine
-        # TODO: affichez sur l'écran "Une seule racine"
+        if aUneSeuleSolution:
+            # ces ligne de code seront executées s'il y'a une seule racine
+            # TODO: affichez sur l'écran "Une seule racine"
 
-        # TODO: assignez a la variable x1 la valeur de la racine
-        x1 =
-        # ne pas modifier
-        return x1
+            # TODO: assignez a la variable x1 la valeur de la racine
+            x1 =
+            # ne pas modifier
+            return x1
 
-    # TODO: Déterminer la condition (bool) qui correspond à la situation où il existe deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
-    aDeuxSolutions =
+        # TODO: Déterminer la condition (bool) qui correspond à la situation où il existe deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
+        aDeuxSolutions =
 
-    if aDeuxSolutions:
-        # TODO: affichez sur l'écran "Deux racines"
+        if aDeuxSolutions:
+            # TODO: affichez sur l'écran "Deux racines"
 
-        # TODO: calculez la première racine, assignez la a "x1"
-        x1 =
+            # TODO: calculez la première racine, assignez la a "x1"
+            x1 =
 
-        # TODO: calculez la deuxième racine, assignez la a "x2"
-        x2 =
+            # TODO: calculez la deuxième racine, assignez la a "x2"
+            x2 =
 
-        # ne pas modifier cette ligne
-        return x1, x2
+            # ne pas modifier cette ligne
+            return x1, x2
 ```
 ## Exercice 4:
 Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
