@@ -146,7 +146,7 @@ Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distanc
 La fonction ayant comme paramètre 2, 1, 12 imprimera donc 8,0.
 
 <p align="center">
-     <img src="img/exo3.PNG?raw=true"/>
+     <img src="img/imgExo6.png.PNG?raw=true"/>
 </p>
 
 Il suffit de compléter la fonction `pointDeRencontre()`.
