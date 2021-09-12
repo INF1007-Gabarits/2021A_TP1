@@ -1,13 +1,10 @@
-def calculerEnergie(masse, vitesse):
+def fizzBuzz(n):
+    # TODO imprimer la chaine de caractère appropriée avec la fonction print().
+    #  Assigner ensuite la valeur à la variable resultat
 
-    # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
-    vitesse=
-
-    # TODO calculer l'energie cinetique, assigner la valeur à la variable "energieCinetique"
-    energieCinetique =
-    return energieCinetique
+    resultat =
+    return resultat
 
 if __name__ == '__main__':
-    masse = float(input("indiquez la masse(en kg) de la voiture: "))
-    vitesse = float(input("indiquez la vitesse (en km/h) de la voiture: "))
-    calculerEnergie(masse, vitesse)
+    n = float(input("indiquez le nombre: "))
+    fizzBuzz(n)

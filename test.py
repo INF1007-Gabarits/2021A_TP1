@@ -1,9 +1,9 @@
 from exercice1 import calculerEnergie
-from exercice2 import resoudreEquation
+from exercice3 import resoudreEquation
 from exercice3 import calculerNombreChiffres
 from exercice4 import decomposer
-from exercice5 import trouverModule
-from exercice5 import effectuerRotation
+from exercice7 import trouverModule
+from exercice7 import effectuerRotation
 import numpy as np
 from random import randint
 import unittest
