@@ -6,11 +6,11 @@
 ## Objectif
 
 Ce TP a pour objectif de vous introduire à l'algorithmie avec le langage de programmation Python.
-Celui-ci est composé de 5 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
+Celui-ci est composé de 7 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
 
 ## Consignes à respecter
 
-Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-5.py que vous devrez compléter.
+Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-7.py que vous devrez compléter.
 Pour ce TP, certaines contraintes sont à respecter:
 - Vous ne pouvez pas importer d'autres librairies que celle qui sont déjà importées dans les fichiers.
 - Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
