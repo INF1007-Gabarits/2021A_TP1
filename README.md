@@ -143,12 +143,6 @@ Completer la fonction *pointDeRencontre()* qui calcule la position du point de r
 
 Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distance par unité de temps, que le véhicule 2 se déplace à une vitesse de 1 unité de distance par une unité de temps et que les deux véhicules se trouvent à 12 unités de distance, ils se rencontreront au point situé 8 unités des distances de la position initiale du véhicule 1.
 
-La fonction ayant comme paramètre 2, 1, 12 imprimera donc 8,0.
-
-<p align="center">
-     <img src="img/imgExo6.png?raw=true"/>
-</p>
-
 Il suffit de compléter la fonction `pointDeRencontre()`.
 ```python
     def pointDeRencontre(v1, v2, distance):
@@ -159,7 +153,11 @@ Il suffit de compléter la fonction `pointDeRencontre()`.
         
         return positionRencontre
 ```
+l'appel à la fonction pointDeRencontre(2,1,12) retournera donc 8.
 
+<p align="center">
+     <img src="img/imgExo6.png?raw=true"/>
+</p>
 
 ## Exercice 7:
 Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
