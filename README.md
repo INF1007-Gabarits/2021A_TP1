@@ -33,28 +33,20 @@ Il suffit de compléter la fonction `fizzBuzz()`.
         resultat = 
         return resultat
 ```
-
 ## Exercice 2:
-Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
-
-Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
-
-<p align="center">
-     <img src="img/mrua.PNG?raw=true"/>
-</p>
-
-Il suffit de compléter la fonction `calculerPosition()`.
+Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calcule l'inverse d'un nombre à **3 chiffres**. Ainsi *inverserNombre(861)* doit retourner *168*. Notez que vous ne pouvez utiliser que les fonctions de la libraire Math.
 ```python
-    def calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale):
-        # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
-        
-        # TODO calculer la position finale, assigner la valeur à la variable "positionFinale"
-        positionFinale =
-        
-        return positionFinale
+    def inverserNombre(n):
+
+        # TODO: Trouver l'inverse du nombre et mettre la valeur dans "inverse"
+        inverse =
+
+        # TODO: Afficher la valeur de "inverse"
+
+        return inverse
 ```
 
-## Exercice 2:
+## Exercice 3:
 Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction `resoudreEquation()`.
 ```python
     def resoudreEquation(a, b, c):
@@ -98,18 +90,6 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
         # ne pas modifier cette ligne
         return x1, x2
 ```
-## Exercice 3:
-Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nombre indiqué par l'utilisateur. Cepandant, vous ne pouvez utiliser que les fonctions de la libraire Math.
-```python
-    def calculerNombreChiffres(nombre):
-
-        # TODO: Déterminer le nombre de chiffres de "nombre" et mettre la valeur dans "nombreDeChiffres"
-        nombreDeChiffres =
-
-        # TODO: Afficher la valeur de "nombreDeChiffres"
-
-        return nombreDeChiffres
-```
 ## Exercice 4:
 Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
 
@@ -139,12 +119,33 @@ PS: On considère qu'une année est composée exactement de 365 jours !
 
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
+## Exercice 4:
+Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
+
+Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
+
+<p align="center">
+     <img src="img/mrua.png?raw=true"/>
+</p>
+
+Il suffit de compléter la fonction `calculerPosition()`.
+```python
+    def calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale):
+        # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
+        
+        # TODO calculer la position finale, assigner la valeur à la variable "positionFinale"
+        positionFinale =
+        
+        return positionFinale
+```
+
+
+
 ## Exercice 5:
 Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
 Voici les deux fonctions à compléter :
 ```python
-        def decomposer(secondes):
-            def trouverModule(nombreComplexe):
+        def trouverModule(nombreComplexe):
             # TODO: Calculer le module du nombre complexe et l'assigner dans "module"
             module =
 
