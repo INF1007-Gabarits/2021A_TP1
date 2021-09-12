@@ -40,7 +40,7 @@ Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. 
 Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
 
 <p align="center">
-     <img src="img/mrua.PNG?raw=true"/>
+     <img src="img/mrua.png?raw=true"/>
 </p>
 
 Il suffit de compléter la fonction `calculerPosition()`.
