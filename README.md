@@ -153,7 +153,7 @@ Il suffit de compléter la fonction `pointDeRencontre()`.
         
         return positionRencontre
 ```
-l'appel à la fonction pointDeRencontre(2,1,12) retournera donc 8.
+L'appel à la fonction pointDeRencontre(2,1,12) retournera donc 8.
 
 <p align="center">
      <img src="img/imgExo6.png?raw=true"/>
