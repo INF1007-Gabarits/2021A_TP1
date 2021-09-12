@@ -19,10 +19,11 @@ Pour ce TP, certaines contraintes sont à respecter:
 
 ## Exercice 1:
 Le problème suivant est appelé FizzBuzz. Soit la fonction *fizzBuzz()* qui prend en entrée un nombre n.
-Imprimer fizz s’il s’agit d’un multiple de 3     
-Imprimer buzz s’il s’agit d’un multiple de 5     
-Imprimer fizzbuzz s’il s’agit à la fois d’un multiple de 3 et 5     
-Imprimer ledit chiffre autrement.
+
+- Imprimer fizz s’il s’agit d’un multiple de 3     
+- Imprimer buzz s’il s’agit d’un multiple de 5     
+- Imprimer fizzbuzz s’il s’agit à la fois d’un multiple de 3 et 5     
+- Imprimer ledit chiffre autrement.
 
 Il suffit de compléter la fonction `fizzBuzz()`.
 ```python
