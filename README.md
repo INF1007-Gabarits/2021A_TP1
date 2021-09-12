@@ -120,7 +120,11 @@ PS: On considère qu'une année est composée exactement de 365 jours !
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
 ## Exercice 5:
-Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
+Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée:
+- positionInitiale (en m)
+- vistesseInitiale (en km/h)
+- duree* (en secondes) 
+- vitesseFinale (km/h) qui est la vitesse du vehicule apres t secondes. 
 
 Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
 
