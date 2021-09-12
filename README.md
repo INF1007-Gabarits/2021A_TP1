@@ -34,7 +34,7 @@ Il suffit de compléter la fonction `fizzBuzz()`.
         return resultat
 ```
 ## Exercice 2:
-Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calcule l'inverse d'un nombre à **3 chiffres**. Ainsi *inverserNombre(861)* doit retourner *168*. Notez que vous ne pouvez utiliser que les fonctions de la libraire Math.
+Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calcule l'inverse d'un nombre à **3 chiffres**. Ainsi *inverserNombre(861)* doit retourner *168*. Notez que vous ne pouvez pas changer le type du nombre ni importer d'autre librairie.
 ```python
     def inverserNombre(n):
 
@@ -141,14 +141,14 @@ Il suffit de compléter la fonction `calculerPosition()`.
 ## Exercice 6:
 Completer la fonction *pointDeRencontre()* qui calcule la position du point de rencontre entre deux véhicules se déplaçant l’un vers l’autre à une vitesse respective de v1 et v2 et se trouvant à une distance d. Considérez que le véhicule 1 se trouve initialement au point 0 et que les vitesses sont constantes.
 
-Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distance par unité de temps, que le véhicule 2 se déplace à une vitesse de 1 unité de distance par une unité de temps et que les deux véhicules se trouvent à 12 unités de distance, ils se rencontreront au point situé 8 unités des distances de la position initiale du véhicule 1.
+Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distance par unité de temps, que le véhicule 2 se déplace à une vitesse de 1 unité de distance par une unité de temps et que les deux véhicules se trouvent à 12 unités de distance, ils se rencontreront au point situé à 8 unités de distance de la position initiale du véhicule 1.
 
 Il suffit de compléter la fonction `pointDeRencontre()`.
 ```python
     def pointDeRencontre(v1, v2, distance):
         # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
         
-        # TODO calculer la position de rencontre, assigner la valeur à la variable "positionRencontre"
+        # TODO calculer la position de rencontre, assignez la valeur à la variable "positionRencontre"
         positionRencontre =
         
         return positionRencontre
