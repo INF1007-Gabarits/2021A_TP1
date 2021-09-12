@@ -16,6 +16,23 @@ Pour ce TP, certaines contraintes sont à respecter:
 - Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
 - Il est interdit de manipuler des chaines de caractères (String).
 
+
+## Exercice 1:
+Le problème suivant est appelé FizzBuzz. Soit la fonction *fizzBuzz()* qui prend en entrée un nombre n.
+Imprimer fizz s’il s’agit d’un multiple de 3     
+Imprimer buzz s’il s’agit d’un multiple de 5     
+Imprimer fizzbuzz s’il s’agit à la fois d’un multiple de 3 et 5     
+Imprimer ledit chiffre autrement.
+
+Il suffit de compléter la fonction `fizzBuzz()`.
+```python
+    def fizzBuzz(n):
+        # TODO imprimer la chaine de caractère avec la fonction print() et assigner cette chaine de caractère à la variable resultat
+        
+        resultat = 
+        return resultat
+```
+
 ## Exercice 1:
 Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
 
