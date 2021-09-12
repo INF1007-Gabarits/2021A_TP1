@@ -34,12 +34,14 @@ Il suffit de compléter la fonction `fizzBuzz()`.
         return resultat
 ```
 
-## Exercice 1:
+## Exercice 2:
 Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
 
 Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
 
-![MRUA](mrua.png)
+<p align="center">
+     <img src="img/mrua.PNG?raw=true"/>
+</p>
 
 Il suffit de compléter la fonction `calculerPosition()`.
 ```python
