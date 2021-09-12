@@ -119,7 +119,7 @@ PS: On considère qu'une année est composée exactement de 365 jours !
 
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
-## Exercice 4:
+## Exercice 5:
 Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée *positionInitiale* (en m) et *vistesseInitiale* (en km/h) qui représentent les conditions initiales du système. Elle prend également en entrée *duree* (en secondes) et *vitesseFinale* (km/h) qui est la vitesse du vehicule apres t secondes. 
 
 Finalement vous devez calculer la position finale **en mètre**. Les équations du MRUA, tirées d'[alloprof](https://www.alloprof.qc.ca/fr/eleves/bv/physique/les-equations-du-mrua-p1010), pourrons certainement vous aider:
@@ -138,10 +138,30 @@ Il suffit de compléter la fonction `calculerPosition()`.
         
         return positionFinale
 ```
+## Exercice 6:
+Completer la fonction *pointDeRencontre()* qui calcule la position du point de rencontre entre deux véhicules se déplaçant l’un vers l’autre à une vitesse respective de v1 et v2 et se trouvant à une distance d. Considérez que le véhicule 1 se trouve initialement au point 0 et que les vitesses sont constantes.
+
+Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distance par unité de temps, que le véhicule 2 se déplace à une vitesse de 1 unité de distance par une unité de temps et que les deux véhicules se trouvent à 12 unités de distance, ils se rencontreront au point situé 8 unités des distances de la position initiale du véhicule 1.
+
+La fonction ayant comme paramètre 2, 1, 12 imprimera donc 8,0.
+
+<p align="center">
+     <img src="img/exo6.png?raw=true"/>
+</p>
+
+Il suffit de compléter la fonction `pointDeRencontre()`.
+```python
+    def pointDeRencontre(v1, v2, distance):
+        # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
+        
+        # TODO calculer la position de rencontre, assigner la valeur à la variable "positionRencontre"
+        positionRencontre =
+        
+        return positionRencontre
+```
 
 
-
-## Exercice 5:
+## Exercice 7:
 Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
 Voici les deux fonctions à compléter :
 ```python
