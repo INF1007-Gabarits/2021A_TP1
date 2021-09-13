@@ -57,7 +57,7 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
         naPasDeSolution =
 
         if naPasDeSolution:
-            # ces lignes de code seront executé si il y'a aucune racine
+            # ces lignes de code seront executé si il y'a aucune racine réelle
             # TODO: afficher sur l'écran "Aucune racine"
 
             # ne pas modifier
@@ -91,7 +91,7 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
             return x1, x2
 ```
 ## Exercice 4:
-Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
+Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur entre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
 
 PS: On considère qu'une année est composée exactement de 365 jours !
 
