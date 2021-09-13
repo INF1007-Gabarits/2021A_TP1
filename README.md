@@ -6,18 +6,18 @@
 ## Objectif
 
 Ce TP a pour objectif de vous introduire à l'algorithmie avec le langage de programmation Python.
-Celui-ci est composé de 7 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
+Celui-ci est composé de 6 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
 
 ## Consignes à respecter
 
-Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-7.py que vous devrez compléter.
+Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-6.py que vous devrez compléter.
 Pour ce TP, certaines contraintes sont à respecter:
 - Vous ne pouvez pas importer d'autres librairies que celles qui sont déjà importées dans les fichiers.
 - Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
 - Il est interdit de manipuler des chaines de caractères (String).
 
 
-## Exercice 1 (2 points):
+## Exercice 1 (3 points):
 Le problème suivant est appelé FizzBuzz. Vous devez compléter la fonction *fizzBuzz()* qui prend en entrée un nombre n.
 
 - Imprimer fizz si n est un multiple de 3     
@@ -33,20 +33,8 @@ Il suffit de compléter la fonction `fizzBuzz()`.
         resultat = 
         return resultat
 ```
-## Exercice 2 (2 points):
-Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calcule l'inverse d'un nombre à **3 chiffres**. Ainsi *inverserNombre(861)* doit retourner *168*. Notez que vous ne pouvez pas changer le type du nombre ni importer d'autre librairie.
-```python
-    def inverserNombre(n):
 
-        # TODO: Trouver l'inverse du nombre et mettre la valeur dans "inverse"
-        inverse =
-
-        # TODO: Afficher la valeur de "inverse"
-
-        return inverse
-```
-
-## Exercice 3 (3 points):
+## Exercice 2 (4 points):
 Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction `resoudreEquation()`.
 ```python
     def resoudreEquation(a, b, c):
@@ -90,7 +78,7 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
             # ne pas modifier cette ligne
             return x1, x2
 ```
-## Exercice 4 (3 points):
+## Exercice 3 (3 points):
 Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur entre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
 
 PS: On considère qu'une année est composée exactement de 365 jours !
@@ -119,7 +107,7 @@ PS: On considère qu'une année est composée exactement de 365 jours !
 
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
-## Exercice 5 (3 points):
+## Exercice 4 (3 points):
 Dans cet exercice, vous devez calculer la position d'une voiture à un temps t. Votre fonction prend en entrée:
 - positionInitiale (en m)
 - vistesseInitiale (en km/h)
@@ -142,7 +130,7 @@ Il suffit de compléter la fonction `calculerPosition()`.
         
         return positionFinale
 ```
-## Exercice 6 (3 points):
+## Exercice 5 (3 points):
 Completer la fonction *pointDeRencontre()* qui calcule la position du point de rencontre entre deux véhicules se déplaçant l’un vers l’autre à une vitesse respective de v1 et v2 et se trouvant à une distance d. Considérez que le véhicule 1 se trouve initialement au point 0 et que les vitesses sont constantes.
 
 Si par exemple le véhicule 1 se déplace à une vitesse de 2 unités de distance par unité de temps, que le véhicule 2 se déplace à une vitesse de 1 unité de distance par une unité de temps et que les deux véhicules se trouvent à 12 unités de distance, ils se rencontreront au point situé à 8 unités de distance de la position initiale du véhicule 1.
@@ -163,7 +151,7 @@ L'appel à la fonction pointDeRencontre(2,1,12) retournera donc 8.
      <img src="img/imgExo6.png?raw=true"/>
 </p>
 
-## Exercice 7 (4 points):
+## Exercice 6 (4 points):
 Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
 Voici les deux fonctions à compléter :
 ```python
