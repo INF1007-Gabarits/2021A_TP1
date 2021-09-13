@@ -14,7 +14,7 @@ Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.
 Pour ce TP, certaines contraintes sont à respecter:
 - Vous ne pouvez pas importer d'autres librairies que celles qui sont déjà importées dans les fichiers.
 - Il est interdit d'utiliser les structures de répétitions (for, while), ni les structures de données (liste, tuple, dictionnaires, etc).
-- Il est interdit de manipuler des chaines de caractères (String).
+
 
 
 ## Exercice 1 (3 points):
