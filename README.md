@@ -46,7 +46,7 @@ Dans cet exercice, vous devez compléter la fonction *inverserNombre()* qui calc
         return inverse
 ```
 
-## Exercice 3:
+## Exercice 3 (3 points):
 Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction `resoudreEquation()`.
 ```python
     def resoudreEquation(a, b, c):
