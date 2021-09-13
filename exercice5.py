@@ -1,17 +1,13 @@
-import math
-
-
-def calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale):
+def pointDeRencontre(v1, v2, distance):
     # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
 
-    # TODO calculer la position finale, assigner la valeur à la variable "positionFinale"
-    positionFinale =
+    # TODO calculer la position de rencontre, assignez la valeur à la variable "positionRencontre"
+    positionRencontre =
 
-    return positionFinale
+    return positionRencontre
 
 if __name__ == '__main__':
-    positionInitiale = int(input("Entrez la position initiale en mètre"))
-    vitesseInitiale = int(input("Entrez la vitesse initiale en km/h"))
-    duree = int(input("Entrez la duree en secondes"))
-    vitesseFinale = int(input("Entrez la vitesseFinale en km/h"))
-    calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale)
+    v1 = int(input("Entrez v1: "))
+    v2 = int(input("Entrez v2: "))
+    distance = int(input("Entrez la distance: "))
+    print(pointDeRencontre(v1, v2, distance))

@@ -6,5 +6,5 @@ def fizzBuzz(n):
     return resultat
 
 if __name__ == '__main__':
-    n = float(input("indiquez le nombre: "))
-    fizzBuzz(n)
+    n = int(input("indiquez le nombre: "))
+    print(fizzBuzz(n))
